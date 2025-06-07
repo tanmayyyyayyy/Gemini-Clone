@@ -1,0 +1,76 @@
+/* style.css */
+/* Custom Scrollbar for Webkit browsers */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #2c2c40; /* Darker track */
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #4a4a6e; /* Muted scrollbar thumb */
+    border-radius: 10px;
+    border: 2px solid #2c2c40; /* Border around thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #6a6a8e; /* Lighter on hover */
+}
+
+/* Spinner for loading indicator */
+.spinner {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Fade-in animation for new messages */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+}
+
+/* Message styling */
+.message {
+    padding: 12px 16px;
+    border-radius: 12px;
+    max-width: 80%; /* Adjust max-width for better readability */
+    word-wrap: break-word; /* Ensure long words break */
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
+}
+
+.from-user {
+    background-color: #007bff; /* A distinct blue for user messages */
+    color: white;
+    align-self: flex-end; /* Align user messages to the right */
+}
+
+.from-gemini {
+    background-color: #334155; /* A slightly different shade for Gemini messages */
+    color: #e2e8f0;
+    align-self: flex-start; /* Align Gemini messages to the left */
+}
+
+/* Responsive adjustments for input area */
+@media (max-width: 640px) {
+    footer {
+        padding: 10px;
+    }
+    textarea {
+        font-size: 0.9rem;
+    }
+    button {
+        padding: 10px 18px;
+        font-size: 0.9rem;
+    }
+}
