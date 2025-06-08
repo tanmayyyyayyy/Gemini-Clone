@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // IMPORTANT: You need your own API Key to talk to Gemini!
         // Replace "YOUR_GEMINI_API_KEY" with the actual key you get from Google AI Studio.
         // Keep this key secret and don't share it publicly!
-        const apiKey = "AIzaSyApXIXDW2pob0IVc9en_SC_nHEruf7t-Kk"; // Get this from ai.google.dev
+        const apiKey = "YOUR-API-KEY"; // Get this from ai.google.dev
         // This is the internet address (URL) of the Gemini AI model we want to use.
         const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
