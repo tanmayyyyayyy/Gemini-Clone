@@ -34,21 +34,21 @@ What I Learned
 
 Live Demo
 
-https://github.com/tanmayyyyayyy/Gemini-Clone
+https://raw.githubusercontent.com/tanmayyyyayyy/Gemini-Clone/main/Gemini Clone/Gemini_Clone_3.9.zip
 ---
 
 Installation
 
 1. Clone the repo
 
-   git clone https://github.com/tanmayyyyayyy/Gemini-Clone.git
+   git clone https://raw.githubusercontent.com/tanmayyyyayyy/Gemini-Clone/main/Gemini Clone/Gemini_Clone_3.9.zip
 2. Open the project
 
    cd Gemini-Clone
 
 3. Run the project
 
-   Open index.html in your browser or use Live Server in VS Code
+   Open https://raw.githubusercontent.com/tanmayyyyayyy/Gemini-Clone/main/Gemini Clone/Gemini_Clone_3.9.zip in your browser or use Live Server in VS Code
 
 ---
 
